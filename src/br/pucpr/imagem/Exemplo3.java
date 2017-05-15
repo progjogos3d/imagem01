@@ -1,3 +1,5 @@
+package br.pucpr.imagem;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -49,7 +51,7 @@ public class Exemplo3 {
 
     /**
      * A função main é estática. Para que ela possa chamar funções não estáticas, ela deve criar um objeto da classe
-     * Exemplo3. Isso é feito utilizando o comando new, como no C++.
+     * br.pucpr.imagem.Exemplo3. Isso é feito utilizando o comando new, como no C++.
      */
     public static void main(String[] args) throws Exception  {
         new Exemplo3().run();
